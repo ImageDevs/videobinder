@@ -32,58 +32,69 @@
 <main>
 
   <section id="top" class="hero">
+    <div class="card-scatter card-scatter-hero" aria-hidden="true">
+      <span class="scatter-card sc-1"></span>
+      <span class="scatter-card sc-2"></span>
+      <span class="scatter-card sc-3"></span>
+    </div>
     <div class="container hero-inner">
       <img src="assets/logo.png" alt="The Video Binder - Collecting memories" class="hero-logo">
-      <p class="eyebrow">Fotografie &amp; video voor de TCG-scene</p>
+      <span class="badge">Fotografie &amp; video voor de TCG-scene</span>
       <h1>Collecting memories.</h1>
       <p class="hero-sub">Wij filmen en fotograferen beurzen in de TCG-scene.</p>
-      <div class="hero-cta">
-        <a href="https://instagram.com/thevideobinder" target="_blank" rel="noopener" class="btn btn-primary">Volg ons op Instagram</a>
-      </div>
+      <a href="https://instagram.com/thevideobinder" target="_blank" rel="noopener" class="link-cta">
+        Volg ons op Instagram <span class="link-arrow">&rarr;</span>
+      </a>
     </div>
   </section>
 
-  <section id="over-ons" class="section">
-    <div class="container">
-      <p class="eyebrow">Over ons</p>
-      <h2>Ervaring met events en documentaires</h2>
-      <div class="story">
+  <section id="over-ons" class="section about">
+    <div class="container about-grid">
+      <div class="about-copy">
+        <h2>Ervaring met events en documentaires</h2>
         <p>Wij filmen en fotograferen al jaren, met ervaring in grote evenementen en documentaires. Met <strong>The Video Binder</strong> zetten we die ervaring in voor de TCG-scene.</p>
+      </div>
+      <div class="card-scatter card-scatter-about" aria-hidden="true">
+        <span class="scatter-card sc-a"></span>
+        <span class="scatter-card sc-b"></span>
+        <span class="scatter-card sc-c"></span>
       </div>
     </div>
   </section>
 
   <section id="diensten" class="section section-alt">
     <div class="container">
-      <p class="eyebrow">Wat we doen</p>
       <h2>Diensten</h2>
-      <div class="services">
-        <div class="service-card">
+      <ul class="service-list">
+        <li class="service-row">
+          <span class="service-num">01</span>
           <h3>Video verslag</h3>
           <p>Een sfeervolle recap van je beurs, perfect om te delen en je volgende editie mee te promoten.</p>
-        </div>
-        <div class="service-card">
+        </li>
+        <li class="service-row">
+          <span class="service-num">02</span>
           <h3>Fotografie</h3>
           <p>Scherpe, sfeervolle foto's van standhouders, pulls en de drukte op de vloer.</p>
-        </div>
-        <div class="service-card">
+        </li>
+        <li class="service-row">
+          <span class="service-num">03</span>
           <h3>Promomateriaal</h3>
           <p>Beeldmateriaal dat organisatoren kunnen inzetten voor aankondigingen en socials.</p>
-        </div>
-        <div class="service-card">
+        </li>
+        <li class="service-row">
+          <span class="service-num">04</span>
           <h3>Documentaires</h3>
           <p>Diepgaandere verhalen over de community, de hobby en de mensen erachter.</p>
-        </div>
-      </div>
+        </li>
+      </ul>
     </div>
   </section>
 
   <section id="contact" class="section contact">
     <div class="container contact-inner">
-      <p class="eyebrow">Contact</p>
       <h2>Volg ons op social media</h2>
       <p class="hero-sub">Voor updates en nieuwe video's volg je ons op Instagram.</p>
-      <a href="https://instagram.com/thevideobinder" target="_blank" rel="noopener" class="btn btn-primary">@thevideobinder op Instagram</a>
+      <a href="https://instagram.com/thevideobinder" target="_blank" rel="noopener" class="handle-link">@thevideobinder</a>
     </div>
   </section>
 
@@ -91,8 +102,8 @@
 
 <footer class="site-footer">
   <div class="container footer-inner">
-    <img src="assets/logo.png" alt="The Video Binder" class="footer-logo">
-    <p>&copy; <span id="year"></span> The Video Binder - Fotografie &middot; Video &middot; TCG</p>
+    <span>&copy; <span id="year"></span> The Video Binder</span>
+    <span class="footer-sep">Fotografie &middot; Video &middot; TCG</span>
   </div>
 </footer>
 
